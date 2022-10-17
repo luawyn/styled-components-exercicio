@@ -1,44 +1,70 @@
-# styled-components
+# Getting Started with Create React App
 
-Caso não lembre como funciona o processo de entrega, clique [**aqui**](https://github.com/labenuexercicios/instrucoes-entrega)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## O que você precisa saber e praticar desta aula?
-1. Estilizar componentes;
-2. Estilizar componentes aninhados;
-3. Estilizar globalmente
+## Available Scripts
 
+In the project directory, you can run:
 
-## Como eu vou executar os exercícios?
+### `npm start`
 
-Vamos utilizar o LabeTube, da aula anterior. Nesse exercício vamos mudar a forma que nosso projeto é estilizado. Ao invés de usar o CSS, vamos usar o JS com `styled-components`. Lembre-se sempre de instalar e importar o styled-components antes de usá-lo.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-```bash
-npm install styled-components
-```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-```jsx
-import styled from 'styled-components'
-```
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-Para executar este exercício, você pode criar uma nova aplicação React, como foi visto na aula passada, ou utilizar o link abaixo para ir ao template no **CodeSandbox**. Este template para exatamente onde o exercício da última aula acaba.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-[**Template do CodeSandbox**](https://codesandbox.io/s/template-exercicio-styled-components-6c597o)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Caso queira usar uma aplicação React, rode `npm install` neste projeto, para baixar as dependências e poder executá-lo.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-# Exercício 1
+### `npm run eject`
 
-Altere os elementos `header`,`main`, `nav` do componente App, para que sua estilização passe a ser feita usando `styled-components`.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-# Exercício 2
-Altere o componente CardVideo, para que ele seja estilzado com `styled-components`.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
 
-## Informações úteis sobre o assunto
-[Documentação do styled-components em inglês)](https://styled-components.com/docs)
-[Criando styled-components com React | Blog Matheus Castiglioni](https://blog.matheuscastiglioni.com.br/criando-styled-components-com-react/)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

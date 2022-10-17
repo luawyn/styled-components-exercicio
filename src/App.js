@@ -1,24 +1,27 @@
 import React from "react";
-import CardVideo from "./Componentes/CardVideo";
-import "./styles.css";
+import CardVideo from "./components/CardVideo";
+import { Header, Main, Nav } from "./styles";
 
 export default function App() {
-  const card1 = {
-    titulo: "Título do vídeo",
-    imagemDoVideo: "https://picsum.photos/400/400?a=1",
-    textoAlternativo: "descrição da imagem"
+  const objetoDoVideo = {
+    imagem: "https://picsum.photos/400/400?a=1",
+    titulo: "título do vídeo",
   };
-
+  const infoDeUsuario = {
+    imagem:
+      "https://img.olhardigital.com.br/wp-content/uploads/2021/03/Bob-Esponja.jpg",
+    autor: "Luana Franco Trevizani",
+  };
   return (
     <div>
       <div className="tela-inteira">
-        <header>
+        <Header>
           <h1>LabeTube</h1>
           <input type="text" placeholder="Busca" id="campoDeBusca" />
-        </header>
+        </Header>
 
-        <main>
-          <nav className="menu-vertical">
+        <Main>
+          <Nav className="menu-vertical">
             <ul>
               <li className="botoes-meunu-vertical">Início</li>
               <li className="botoes-meunu-vertical">Em alta</li>
@@ -27,16 +30,19 @@ export default function App() {
               <li className="botoes-meunu-vertical">Originais</li>
               <li className="botoes-meunu-vertical">Histórico</li>
             </ul>
-          </nav>
+          </Nav>
 
           <section className="painel-de-videos">
-            <CardVideo
-              image1={card1.imagemDoVideo}
-              titulo={card1.titulo}
-              textoAlternativo={card1.textoAlternativo}
-            />
+            <CardVideo card={objetoDoVideo} info={infoDeUsuario} />
+            <CardVideo card={objetoDoVideo} info={infoDeUsuario} />
+            <CardVideo card={objetoDoVideo} info={infoDeUsuario} />
+            <CardVideo card={objetoDoVideo} info={infoDeUsuario} />
+            <CardVideo card={objetoDoVideo} info={infoDeUsuario} />
+            <CardVideo card={objetoDoVideo} info={infoDeUsuario} />
+            <CardVideo card={objetoDoVideo} info={infoDeUsuario} />
+            <CardVideo card={objetoDoVideo} info={infoDeUsuario} />
           </section>
-        </main>
+        </Main>
 
         <footer>
           <h4>Oi! Eu moro no footer!</h4>
